@@ -1,0 +1,33 @@
+{
+  "include": ["./src/**/*"],
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["dom", "es2015", "es2017"],
+    "sourceMap": true,
+    // "allowJs": true,
+    // "checkJs": true,
+    "jsx": "react",
+
+    /* Strict type-checking options */
+    "noImplicitAny": true,
+    "strict": true,
+
+    /* Additional checks */
+
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Module resolution options */
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "plugins": [{ "name": "typescript-plugin-tw-template" }]
+
+    /* "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmit": true,
+    "skipLibCheck": true */
+  }
+}

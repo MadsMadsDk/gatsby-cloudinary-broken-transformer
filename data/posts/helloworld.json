@@ -1,0 +1,21 @@
+{
+  "post": {
+    "title": "Hello cloudinary!",
+    "coverPhoto": {
+      "cloudinaryAssetData": true,
+      "cloudName": "<insert cloudName>",
+      "publicId": "sample",
+      "originalHeight": 576,
+      "originalWidth": 864,
+      "alt": "Sample image"
+    }
+  },
+  "coverPhoto": {
+    "cloudinaryAssetData": true,
+    "cloudName": "<insert cloudName>",
+    "publicId": "sample",
+    "originalHeight": 576,
+    "originalWidth": 864,
+    "alt": "Sample image"
+  }
+}
